@@ -68,3 +68,37 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### tailwaing setup
+- npm i -D tailwindcss
+- npx tailwindcss init
+
+### youtube design
+- Head
+- Body
+    - Sidebar
+        - MenuItems
+    - MainCotainer
+        - ButtonsList
+        - VideoContainer
+            - VideoCards
+
+### install redux
+- npm i @reduxjs/toolkit
+- npm i react-redux
+
+###  Higher Order Component
+- it takes the exisitng component and modify it a little
+
+### Debouncing
+- typing slow = diff between keystroke is 200 ms
+- typing fast = diff between keystroke is 30ms
+- Performance : 
+    - 14 letter * 1000 = 14000 API calls
+    - with debouncing = 3 API calls * 1000 = 1300 API calls
+ - Debouncing with 200ms meaning if diff between 2 keystroke
+ is  < 200ms - decline API call, for  > 200ms make API call and show the result
+
+
+ ### HomeWork
+ - search the text onclick
