@@ -102,3 +102,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
  ### HomeWork
  - search the text onclick
+
+ ### LiveChat
+ - challenges : 1. get data Live 
+                2. update data in page(update UI)
+- Data (LIVE) : 
+  - 1. WebSockets<2 way connection between UI and Server (handshake)>(no regular interval) ex: trading app, whatsapp
+  - 2. API polling (data flows from server to ui after an interval) ex: gmail,cricbuzs

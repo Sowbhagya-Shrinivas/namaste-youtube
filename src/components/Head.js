@@ -19,10 +19,10 @@ const Head = () => {
   },[]);
 
   const handleSearchVideo = async() => {
-     const data = await fetch(YOUTUBE_SEARCH_BY_KEYWORD_API + searchQuery);
-     const json = await data.json();
-     dispatch(searchVideo(json.items));
-     dispatch(toggleSearchScreen());
+    //  const data = await fetch(YOUTUBE_SEARCH_BY_KEYWORD_API + searchQuery);
+    //  const json = await data.json();
+    //  dispatch(searchVideo(json.items));
+    //  dispatch(toggleSearchScreen());
   }
 
   useEffect(() => {
